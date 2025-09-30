@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tuMachine"
+version = "0.1.0"
+description = "Библиотека для генерации кода для машины Тьюринга"
+authors = [
+    { name="Konstantin Tarasenko", email="kostatar2007@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = []
+
+[tool.setuptools]
+packages = ["tuMachine"]
