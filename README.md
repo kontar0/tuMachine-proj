@@ -24,7 +24,7 @@ c = Constructor([left_two_numbers,copy_num],2)
 c.build('tuCode.txt')
 ```
 
-This code creates a Turing machine with two functions: Subtraction and SliceNumber. The `Constructor` class is used to combine these functions and generate the Turing machine code, which is then written to the `output.txt` file.
+This code creates a Turing machine with two functions: MoveTrought and CopyThrought. The `Constructor` class is used to combine these functions and generate the Turing machine code, which is then written to the `tuCode.txt` file.
 
 ## API
 
@@ -38,7 +38,7 @@ The `tuMachine` library provides the following classes:
 - `CopyThrought`: Copies a sequence of symbols to a specified location.
 - `SliceNumber`: Extracts a slice of a number.
 - `DeleteWordBeforeSymbol`: Deletes the word before a specified symbol.
-- `Subtraction`: Implements subtraction.
+- `Subtraction`: Implements subtraction. <- in procces
 
 Each class has its own set of methods and parameters that can be used to define the behavior of the Turing machine.
 
