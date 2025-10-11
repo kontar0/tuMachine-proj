@@ -24,7 +24,7 @@ c = Constructor([left_two_numbers,copy_num],2)
 c.build('tuCode.txt')
 ```
 
-This code creates a Turing machine with two functions: MoveTrought and CopyThrought. The `Constructor` class is used to combine these functions and generate the Turing machine code, which is then written to the `tuCode.txt` file.
+This code creates a Turing machine with two functions: MoveTrought and CopyThrought. The `Constructor` class is used to combine these functions and generate the Turing machine code for power=2(allow from 2 to 36), which is then written to the `tuCode.txt` file.
 
 ## API
 
