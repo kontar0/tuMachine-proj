@@ -15,15 +15,13 @@ pip install tuMachine
 Here's an example of how to use the `tuMachine` library:
 
 ```python
-from tuMachine import Constructor, Subtraction, SliceNumber
+from tuMachine import *
 
-functions = [
-    Subtraction(),
-    SliceNumber([1, 2], 1, 0)
-]
+left_two_numbers = MoveThrought(2,0)
+copy_num = CopyThrought(2,1,1)
 
-constructor = Constructor(functions, 3)
-constructor.build("output.txt")
+c = Constructor([left_two_numbers,copy_num],2)
+c.build('tuCode.txt')
 ```
 
 This code creates a Turing machine with two functions: Subtraction and SliceNumber. The `Constructor` class is used to combine these functions and generate the Turing machine code, which is then written to the `output.txt` file.
